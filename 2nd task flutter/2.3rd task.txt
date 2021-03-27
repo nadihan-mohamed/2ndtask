@@ -1,0 +1,13 @@
+void main() {
+  //3rd task
+  int i=0;              //intial value is zero
+  while (i<100)        //while loop to count from 0 to less than 100
+  {
+if (i%10!=0)         // condition if (i) divided by 10 the reminder not equal zero
+{
+  print (i);         // after the condition is true print the values of( i )
+}  
+    i++;            // the counter to prevent the program make infinte loop
+  }
+  
+}

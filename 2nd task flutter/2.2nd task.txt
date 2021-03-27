@@ -1,0 +1,11 @@
+void main() {
+  //2nd task
+for(int i=1;i<=100;i++) // for loop to count from 1 to 100
+{
+if (i%2==0) // condition to check the even numbers
+{
+print ("even number=$i"); // out put the only even numbers 
+}
+}
+}
+ 

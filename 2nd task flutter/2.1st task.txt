@@ -1,0 +1,27 @@
+void main() {
+  //1st task
+ num num1=5;                   //number 1 in the operation
+  num num2=4;                   //number 2 in the operation
+  String operation ="div";      //input operation
+  switch(operation)
+  {
+    case "sum":{               //sum case (+)
+     num sum=num1+num2;       //the rule of sum op
+      print("sum=$sum");}
+      break;
+    case "diff":{            //sub case(-)
+     num diff=num1-num2;     //the rule of diff op
+      print("diff=$diff");}
+      break;
+    case "mul":{             //mul case (*)
+      num mul=num1*num2;     //the rule of mul op
+      print("mul=$mul");} 
+      break;
+      case "div":{          //div case(/)
+       num div=num1/num2;  //the rule of div op
+        print("div=$div");
+      }
+      break;
+  }
+}
+ 

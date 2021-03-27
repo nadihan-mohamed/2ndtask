@@ -1,0 +1,9 @@
+void main() {
+  //4th task
+  int sum=0;          // varible called sum to store data in it with intial value (0)
+ for(int i=0;i<100;i++)  //loop to count from 0 to less than 100 
+ {
+sum=sum+i;               // after every loop add the value of( i ) to the new value of (sum )
+ }
+ print (sum);        // print the last value stored in (sum )
+}
